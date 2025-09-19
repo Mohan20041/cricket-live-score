@@ -2,6 +2,8 @@
 
 A full-stack web application for tracking cricket matches with real-time scores using Spring Boot, React, and MongoDB.
 
+
+
 ## Features
 
 - Live match scores updated in real-time
@@ -32,28 +34,28 @@ A full-stack web application for tracking cricket matches with real-time scores 
 \\\
 cricket-live-score/
 +-- backend/                 # Spring Boot application
-¦   +-- src/
-¦   ¦   +-- main/
-¦   ¦       +-- java/
-¦   ¦       ¦   +-- com/
-¦   ¦       ¦       +-- cricket/
-¦   ¦       ¦           +-- config/
-¦   ¦       ¦           +-- controller/
-¦   ¦       ¦           +-- model/
-¦   ¦       ¦           +-- repository/
-¦   ¦       ¦           +-- scheduler/
-¦   ¦       ¦           +-- service/
-¦   ¦       +-- resources/
-¦   ¦           +-- application.properties
-¦   +-- pom.xml
+Â¦   +-- src/
+Â¦   Â¦   +-- main/
+Â¦   Â¦       +-- java/
+Â¦   Â¦       Â¦   +-- com/
+Â¦   Â¦       Â¦       +-- cricket/
+Â¦   Â¦       Â¦           +-- config/
+Â¦   Â¦       Â¦           +-- controller/
+Â¦   Â¦       Â¦           +-- model/
+Â¦   Â¦       Â¦           +-- repository/
+Â¦   Â¦       Â¦           +-- scheduler/
+Â¦   Â¦       Â¦           +-- service/
+Â¦   Â¦       +-- resources/
+Â¦   Â¦           +-- application.properties
+Â¦   +-- pom.xml
 +-- frontend/                # React application
-¦   +-- public/
-¦   +-- src/
-¦   ¦   +-- components/
-¦   ¦   +-- services/
-¦   ¦   +-- styles/
-¦   +-- package.json
-¦   +-- package-lock.json
+Â¦   +-- public/
+Â¦   +-- src/
+Â¦   Â¦   +-- components/
+Â¦   Â¦   +-- services/
+Â¦   Â¦   +-- styles/
+Â¦   +-- package.json
+Â¦   +-- package-lock.json
 +-- README.md
 \\\
 
